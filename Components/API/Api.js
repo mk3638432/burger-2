@@ -64,6 +64,7 @@ export const data = [
       price: '$',
     },
     {
+      
       id: 9,
       name: 'Kale Salad',
       category: 'salad',
