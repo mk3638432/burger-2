@@ -42,7 +42,7 @@ const Navbar = () => {
     'fixed top-0 left-[-100%] w-[250px] h-screen bg-white  z-10 duration-300'}>
       <AiOutlineClose  onClick={() => {setNav(!nav)}} size={30} className='absolute right-4 cursor-pointer top-4 '/>
       <h2 className='text-2xl p-4 '>Best <span className='font-bold'> Eats</span></h2>
-      <nav>
+      <nav className='h-screen ml-4'>
         <ul>
           <li className='text-xl py-4 flex '><TbTruckDelivery size={25} className='mr-4'/> Orders</li>
           <li className='text-xl py-4 flex '><MdFavorite size={25} className='mr-4'/> Favorites</li>
